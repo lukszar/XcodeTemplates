@@ -11,7 +11,7 @@ import UIKit
 
 final class ___FILEBASENAMEASIDENTIFIER___ {
 
-    let shared = ___FILEBASENAMEASIDENTIFIER___()
+    static let shared = ___FILEBASENAMEASIDENTIFIER___()
 
     func configure___VARIABLE_productName___Module(with viewController: ___VARIABLE_productName___ViewController?) {
 
