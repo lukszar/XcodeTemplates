@@ -4,7 +4,7 @@
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  ___COPYRIGHT___
-// Files generated for SLToolbox
+
 
 import UIKit
 

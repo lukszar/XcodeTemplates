@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>ModuleName</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Description</key>
+	<string>Generates package of classes needed to implement new UITableViewCell</string>
+	<key>Summary</key>
+	<string>Generate package of classes for UITableViewCell</string>
+	<key>SortOrder</key>
+	<string>0</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Name:</string>
+			<key>Description</key>
+			<string>Name of the module to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>Model</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+        <dict>
+            <key>Identifier</key>
+            <string>bundleName</string>
+            <key>Required</key>
+            <true/>
+            <key>Name</key>
+            <string>Class name:</string>
+            <key>Description</key>
+            <string>Name of the UITableViewCell class to create</string>
+            <key>Type</key>
+            <string>static</string>
+            <key>Default</key>
+            <string>___VARIABLE_productName:identifier___Cell</string>
+            <key>NotPersisted</key>
+            <true/>
+        </dict>
+		<dict>
+			<key>Identifier</key>
+			<string>subclassesFrom</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>Description</key>
+			<string>Subclasses From</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>UITableViewCell</string>
+		</dict>
+	</array>
+</dict>
+</plist>
