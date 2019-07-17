@@ -11,7 +11,7 @@
 import UIKit
 import SLToolbox
 
-extension ___VARIABLE_bundleName___: ConfigurableCell {
+extension ___VARIABLE_bundleName___: CellConfigurable {
     func configure(with viewModel: ___VARIABLE_bundleName___ViewModel) {
 
         // Provide implementation for configuring ___VARIABLE_bundleName___ with ___VARIABLE_bundleName___ViewModel.
