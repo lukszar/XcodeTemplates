@@ -17,5 +17,5 @@ extension ___VARIABLE_bundleName___: CellConfigurable {
         // Provide implementation for configuring ___VARIABLE_bundleName___ with ___VARIABLE_bundleName___ViewModel.
     }
 
-    typealias T = ___VARIABLE_bundleName___ViewModel
+    typealias ViewModelType = ___VARIABLE_bundleName___ViewModel
 }
