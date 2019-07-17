@@ -3,10 +3,10 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//  Generated using template created by Łukasz Szarkowicz.
+//  Generated using XcodeTemplates from https://github.com/lukszar/XcodeTemplates - created by Łukasz Szarkowicz.
 //  ___COPYRIGHT___
 //
-//  SLToolbox module required for this class.
+//  SLToolbox module import required for using this class.
 
 import Foundation
 import SLToolbox
